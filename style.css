@@ -3,6 +3,7 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    text-align: center;
 }
 
 #tentacles {
@@ -24,7 +25,7 @@ body {
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #d5dae2;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -71,5 +72,26 @@ button {
     border: none;
     padding: 1%;
     margin: 1%;
+    border-radius: 7px;
+}
+
+/* Customization: adjust for style and contrast */
+
+#stats-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+h2 {
+    background-color: #FFFFFF;
+    padding: 1%;
+}
+
+#description-container, .info {
+    background-color: #d3dddd;
+    padding: 1rem;
+    margin: 1% 20%;
     border-radius: 7px;
 }
